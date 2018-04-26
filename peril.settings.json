@@ -1,0 +1,10 @@
+{
+  "settings": {
+    "onlyForOrgMembers": false
+  },
+  "rules": {
+    "pull_request.closed": "ReSwift/reswift-peril@org/aeryn.ts"
+  },
+  "repos": {
+  }
+}
