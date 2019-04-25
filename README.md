@@ -3,7 +3,7 @@
 
 ### What is this project?
 
-This is the configuration repo for Peril on the ReSwift org. There is a [settings file](peril.settings.json) and org-wide dangerfiles which are inside the [org folder](org).
+This is the configuration repo for Peril on the SwiftCSV org. It's based on the established settings from the [ReSwift org](https://github.com/ReSwift/reswift-peril). There is a [settings file](peril.settings.json) and org-wide dangerfiles which are inside the [org folder](org).
 
 Here's some links to the key things
 
@@ -15,10 +15,10 @@ Here's some links to the key things
 ### To Develop
 
 ```sh
-git clone https://github.com/ReSwift/reswift-peril.git
-cd reswift-peril
+git clone https://github.com/swiftcsv/swiftcsv-peril.git
+cd swiftcsv-peril
 yarn install
-code .
+code . # open project in editor
 ```
 
 You will need node and yarn installed beforehand. You can get them both by running `brew install yarn`. This will give you auto-completion and types for Danger/Peril mainly.

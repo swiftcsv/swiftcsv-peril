@@ -1,8 +1,11 @@
 {
-  "name": "reswift-peril",
+  "name": "swiftcsv-peril",
   "version": "1.0.0",
-  "repository": "https://github.com/ReSwift/reswift-peril",
-  "author": "Steven Deutsch <stevensdeutsch@yahoo.com>",
+  "repository": "https://github.com/swiftcsv/swiftcsv-peril",
+  "authors": [
+      "Steven Deutsch <stevensdeutsch@yahoo.com>",
+      "Christian Tietze <christian.tietze@gmail.com>"
+  ],
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {

@@ -26,13 +26,13 @@ export const aeryn = wrap("When a PR is merged, check if the author is in the or
     return
   }
 
-  const org = "ReSwift"
+  const org = "swiftcsv"
   const inviteMarkdown = `
-  @${username} Thanks a lot for contributing to ReSwift! We've invited you to join 
-  the ReSwift GitHub organization – no pressure to accept! If you'd like more 
+  @${username} Thanks a lot for contributing to SwiftCSV! We've invited you to join 
+  the SwiftCSV GitHub organization – no pressure to accept! If you'd like more 
   information on what that means, check out our [contributor guidelines][c].
 
-  [c]: https://github.com/ReSwift/ReSwift/blob/master/CONTRIBUTING.md
+  [c]: https://github.com/SwiftCSV/SwiftCSV/blob/master/CONTRIBUTING.md
   `
 
   try {
